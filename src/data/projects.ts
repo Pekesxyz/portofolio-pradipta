@@ -34,7 +34,7 @@ export const otherProjects: Project[] = [
     title: "Skilora Academy",
     description: "Platform kursus online modern untuk belajar Web Development, UI/UX Design, Flutter Mobile, dan 3D Art berbasis proyek nyata industri.",
     image: "/ss-skilora-2.png",
-    technologies: ["Next.js", "JavaScript", "Tailwind CSS"],
+    technologies: ["React", "JavaScript", "Tailwind CSS"],
     github: "https://github.com/Pekesxyz/skilora-academy",
     demo: "https://skilora-academy-two.vercel.app/",
   },
