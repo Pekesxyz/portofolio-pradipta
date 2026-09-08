@@ -23,7 +23,7 @@ const navLinks = [
 
 export function Navbar() {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, resolvedTheme, setTheme } = useTheme();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -96,11 +96,11 @@ export function Navbar() {
 
             {mounted && (
               <button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
                 className="text-secondary hover:text-foreground transition-colors"
                 aria-label="Toggle theme"
               >
-                {theme === "dark" ? (
+                {resolvedTheme === "dark" ? (
                   <Sun className="w-5 h-5" />
                 ) : (
                   <Moon className="w-5 h-5" />
@@ -114,11 +114,11 @@ export function Navbar() {
         <div className="flex items-center gap-4 md:hidden">
           {mounted && (
             <button
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
               className="text-secondary hover:text-foreground transition-colors"
               aria-label="Toggle theme"
             >
-              {theme === "dark" ? (
+              {resolvedTheme === "dark" ? (
                 <Sun className="w-5 h-5" />
               ) : (
                 <Moon className="w-5 h-5" />
