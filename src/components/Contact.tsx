@@ -27,7 +27,7 @@ export function Contact() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-16">
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=pradiptazulva@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=pradiptasamsung@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-primary text-primary-foreground px-8 py-4 rounded-md font-medium hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 text-lg shadow-sm"
@@ -49,13 +49,13 @@ export function Contact() {
 
           <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-6 sm:gap-8 mt-8">
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=pradiptazulva@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=pradiptasamsung@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-foreground transition-colors flex items-center gap-2"
             >
               <Mail className="w-5 h-5" />
-              <span className="font-medium text-sm md:text-base">pradiptazulva@gmail.com</span>
+              <span className="font-medium text-sm md:text-base">pradiptasamsung@gmail.com</span>
             </a>
             <a
               href="https://github.com/Pekesxyz"
