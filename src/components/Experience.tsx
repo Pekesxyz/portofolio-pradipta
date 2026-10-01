@@ -6,28 +6,35 @@ const experiences = [
   {
     title: "Data Entry Intern — Kelurahan Penggilingan",
     date: "April 2021 – Juli 2021",
-    description: "Bertanggung jawab sebagai Data Entry di instansi pemerintahan Kelurahan Penggilingan. Bertugas dalam memasukkan, memvalidasi, dan mengelola data kependudukan serta memberikan layanan masyarakat dengan akurasi tinggi.",
+    description:
+      "Bertanggung jawab sebagai Data Entry di instansi pemerintahan Kelurahan Penggilingan. Bertugas dalam memasukkan, memvalidasi, dan mengelola data kependudukan serta memberikan layanan masyarakat dengan akurasi tinggi.",
   },
   {
     title: "Ketua Kelas 2KA25",
-    date: "2024 – Sekarang",
-    description: "Memimpin dan mengkoordinasikan kegiatan akademik serta non-akademik di kelas, menjadi jembatan komunikasi antara mahasiswa dan dosen, serta memastikan kelancaran administrasi perkuliahan.",
+    date: "2024 – 2025",
+    description:
+      "Memimpin dan mengkoordinasikan kegiatan akademik serta non-akademik di kelas, menjadi jembatan komunikasi antara mahasiswa dan dosen, serta memastikan kelancaran administrasi perkuliahan.",
   },
   {
     title: "Seksi Perlengkapan — Karang Taruna",
     date: "2022 – 2023",
-    description: "Bertanggung jawab atas pengelolaan, pengadaan, dan pemeliharaan perlengkapan serta logistik untuk berbagai kegiatan dan acara organisasi Karang Taruna.",
+    description:
+      "Bertanggung jawab atas pengelolaan, pengadaan, dan pemeliharaan perlengkapan serta logistik untuk berbagai kegiatan dan acara organisasi Karang Taruna.",
   },
   {
     title: "Juara 3 - UI/UX Competition",
     date: "2025",
-    description: "Meraih juara ke-3 dalam kompetisi UI/UX. Merancang antarmuka aplikasi yang berfokus pada pengalaman pengguna yang intuitif, fungsional, dan desain yang modern.",
+    description:
+      "Meraih juara ke-3 dalam kompetisi UI/UX. Merancang antarmuka aplikasi yang berfokus pada pengalaman pengguna yang intuitif, fungsional, dan desain yang modern.",
   },
 ];
 
 export function Experience() {
   return (
-    <section id="experience" className="py-24 bg-muted/30 scroll-mt-20 border-y border-border/50">
+    <section
+      id="experience"
+      className="py-24 bg-muted/30 scroll-mt-20 border-y border-border/50"
+    >
       <div className="container mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -57,7 +64,7 @@ export function Experience() {
                 >
                   {/* Timeline dot */}
                   <span className="absolute -left-[35px] md:-left-[43px] top-1.5 w-4 h-4 rounded-full bg-background border-2 border-accent" />
-                  
+
                   <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-2 gap-2 md:gap-4">
                     <h3 className="text-xl font-bold text-foreground">
                       {exp.title}
