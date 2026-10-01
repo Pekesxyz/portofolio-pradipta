@@ -10,16 +10,16 @@ const experiences = [
       "Bertanggung jawab sebagai Data Entry di instansi pemerintahan Kelurahan Penggilingan. Bertugas dalam memasukkan, memvalidasi, dan mengelola data kependudukan serta memberikan layanan masyarakat dengan akurasi tinggi.",
   },
   {
-    title: "Ketua Kelas 2KA25",
-    date: "2024 – 2025",
-    description:
-      "Memimpin dan mengkoordinasikan kegiatan akademik serta non-akademik di kelas, menjadi jembatan komunikasi antara mahasiswa dan dosen, serta memastikan kelancaran administrasi perkuliahan.",
-  },
-  {
     title: "Seksi Perlengkapan — Karang Taruna",
     date: "2022 – 2023",
     description:
       "Bertanggung jawab atas pengelolaan, pengadaan, dan pemeliharaan perlengkapan serta logistik untuk berbagai kegiatan dan acara organisasi Karang Taruna.",
+  },
+  {
+    title: "Ketua Kelas 2KA25",
+    date: "2024 – 2025",
+    description:
+      "Memimpin dan mengkoordinasikan kegiatan akademik serta non-akademik di kelas, menjadi jembatan komunikasi antara mahasiswa dan dosen, serta memastikan kelancaran administrasi perkuliahan.",
   },
   {
     title: "Juara 3 - UI/UX Competition",
