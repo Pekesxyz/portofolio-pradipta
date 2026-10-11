@@ -64,7 +64,7 @@ export function Hero() {
               LinkedIn
             </a>
             <a
-              href="https://www.instagram.com/pekssv"
+              href="https://www.instagram.com/pekessv"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium text-secondary hover:text-foreground flex items-center gap-1.5 transition-colors"

@@ -67,7 +67,7 @@ export function Contact() {
               <span className="font-medium text-sm md:text-base">GitHub</span>
             </a>
             <a
-              href="https://www.instagram.com/pekssv"
+              href="https://www.instagram.com/pekessv"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-foreground transition-colors flex items-center gap-2"

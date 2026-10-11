@@ -85,7 +85,7 @@ export function Navbar() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://www.instagram.com/pekssv"
+              href="https://www.instagram.com/pekessv"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"

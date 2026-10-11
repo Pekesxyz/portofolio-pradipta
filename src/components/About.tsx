@@ -43,7 +43,7 @@ export function About() {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Pendidikan</h3>
                   <p className="text-secondary">Universitas Gunadarma</p>
-                  <p className="text-sm text-secondary/80">Sistem Informasi (IPK: 3.95)</p>
+                  <p className="text-sm text-secondary/80">Sistem Informasi (IPK: 3.97)</p>
                 </div>
               </div>
 

@@ -33,7 +33,7 @@ export function Education() {
                   Universitas Gunadarma
                 </h3>
                 <p className="text-lg text-secondary mb-4">
-                  Sistem Informasi • IPK: 3.95/4.00
+                  Sistem Informasi • IPK: 3.97/4.00
                 </p>
                 
                 <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-muted text-secondary text-sm font-medium border border-border/50">
